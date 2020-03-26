@@ -9,9 +9,15 @@ namespace Slutprojekt2020
     class FriendlyNPC : NPC
     {
         public int friendlyScary = -5;
+        public int friendlyInnocent = +5;
         public FriendlyNPC()
         {
-             friendlyScary += npcStats[0];
+            npcStats[0] += friendlyScary;
+            npcStats[2] += friendlyInnocent;
+            for (int i = 0; i < npcStats.Length; i++)
+            {
+
+            }
         }
     }
 }

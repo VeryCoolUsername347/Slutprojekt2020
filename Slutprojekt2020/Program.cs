@@ -19,7 +19,7 @@ namespace Slutprojekt2020
             //Polymorfism            
             //TEXTBASERAT UTFORSKNINGSSPEL
 
-            NPC steve = new NPC();
+            NPC steve = new FriendlyNPC();
             steve.GenerateStats();
 
 

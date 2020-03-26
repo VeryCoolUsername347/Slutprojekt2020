@@ -20,7 +20,7 @@ namespace Slutprojekt2020
             }
             //for (int j = 0; j < 3; j++)
             //{
-            //    Console.WriteLine("Stat number " + j + "= " + npcStats[j]);
+            //    Console.WriteLine("Stat number " + j + " = " + npcStats[j]);
 
             //}
             //Console.ReadLine();
