@@ -27,9 +27,17 @@ namespace Slutprojekt2020
 
             Console.WriteLine("Your scariness is: " + playerStats[0]);
             Console.WriteLine("Your handsomeness is: " + playerStats[1]);
-            Console.WriteLine("Your inoocence is: " + playerStats[2]);
+            Console.WriteLine("Your inoccence is: " + playerStats[2]);
             Console.ReadLine();
-            
+
+            Console.Clear();
+            Console.WriteLine("You find yourself at the entrance of a large building. You have avague memory of what you're supposed to do: ");
+            Console.WriteLine("Go to the Resonating Chamber");
+            Console.WriteLine("Bla bla bla dangerous");
+            Console.WriteLine("Find the Dodecahedron");
+            Console.WriteLine("Bla bla bla bending reality");
+            Console.WriteLine("Come back, get paid. Easy enough.");
+
 
 
         }
